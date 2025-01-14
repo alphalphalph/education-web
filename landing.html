@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Education Web</h1>
+    </header>
+
+    <div class="container">
+        <div class="search-section">
+            <input type="text" id="search" placeholder="Search books on Project Gutenberg">
+            <button onclick="searchBooks()">Search</button>
+        </div>
+
+        <div class="how-to-use">
+            <h2>How to Use</h2>
+            <p>Simply enter the title, author, or topic you want to search for in the search bar above. Our platform will fetch the results directly from Project Gutenberg and provide you with links to access the books for free.</p>
+        </div>
+
+        <div id="results" class="results"></div>
+    </div>
+
+    <footer>
+        &copy; 2025 Education Web. All rights reserved.
+    </footer>
+
+    <script src="search.js"></script>
+</body>
+</html>
